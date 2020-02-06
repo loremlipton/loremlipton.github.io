@@ -1,0 +1,66 @@
+.cell{
+	height: 120px;
+	/*background-color: #3F729B;*/
+	margin: 8px;
+}
+
+body, html {
+	height: 100%;
+}
+
+
+body{
+	background-image: url('../board-597238_1920.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;
+}
+
+
+.centrTX{
+	display: flex;
+	justify-content: align-items-center;
+}
+
+
+
+.bg {
+	/* The image used */
+	background-image: url("/board-597238_1920.jpg");
+
+	/* Full height */
+	height: 100%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+@font-face {
+	font-family: "LcChalk";
+	src: url("../font/LcChalk/LcChalk.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*div{
+	display: none;
+}*/
+
+input{
+	font-family: LcChalk;
+	color: white;	
+
+	width: 35%;
+	margin-left: 6px; 
+	font-size:35px;
+}
+
+
+span{
+	font-family: LcChalk;
+	color: white;
+	font-size:35px;
+	opacity: 0.9;
+	
+}
